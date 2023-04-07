@@ -32,7 +32,7 @@ function App5(props) {
                             <td>{value.sub_category_name}</td>
                             <td>{value.category_id}</td>
                             <td>{value.category_name}</td>
-                            <td><img src={value.sub_category_image}></img></td>
+                            <td><img src={value.sub_category_image} alt='myimage'></img></td>
                         </tr>
                     ))}
                 </table>

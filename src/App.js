@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import App1 from './App1';
 import App2 from './App2';

@@ -31,7 +31,7 @@ class App3 extends React.Component {
                            
                             <td>{value.category_id}</td>
                             <td>{value.category_name}</td>
-                            <td><img src={value.category_image}></img></td>
+                            <td><img src={value.category_image} alt='myimage'></img></td>
                         </tr>
                     ))}
                 </table>

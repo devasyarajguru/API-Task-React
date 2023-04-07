@@ -33,7 +33,7 @@ class App1 extends React.Component {
                             <td>{value.product_name}</td>
                             <td>{value.product_details}</td>
                             <td>{value.product_price}</td>
-                            <td><img src={value.product_image}></img></td>
+                            <td><img src={value.product_image} alt='myimage'></img></td>
                         </tr>
                     ))}
                 </table>
